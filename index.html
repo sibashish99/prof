@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <div class="container">
@@ -20,18 +21,25 @@
             <p>Web Development<br>UI/UX Design</p>
             <div class="buttons">
                 <div class="btn">
-                    <button>Message</button>
+                    <a href="sibashishbiswas656@gmail.com"><button style="font-weight: 500; font-family: fantasy;">Message</button></a>
                 </div>
                 <div class="btn">
-                    <button>Portfolio</button>
+                    <a href="https://github.com/sibashish99/sibashish99_old.git"><button style="font-weight: 500;font-family: fantasy;">Portfolio</button></a>
                 </div>
             </div>
         </div>
         <div class="icon">
-            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+            <li><a href="https://www.facebook.com/sibashish.biswas.5"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/sibashish-biswas-147337154"><span class="fab fa-linkedin"></span></a></li>
+            <li><a href="https://www.instagram.com/sibashish_99/"><span class="fab fa-instagram"></span></a></li>
         </div>
     </div>
+
+    <script>
+        const img =document.querySelector("img");
+        img.onclick = function(){
+            this.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
