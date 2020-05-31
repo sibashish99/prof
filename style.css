@@ -4,6 +4,10 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: fantasy;
+    padding: 90px;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
 }
 .container{
     height: 470px;
@@ -11,6 +15,7 @@ body{
     overflow: hidden;
     margin: 0 auto;
     border-radius: 5px;
+    background: linear-gradient( 25deg, #14802f,#1eff44);
 }
 .container .wrapper img{
     position: relative;
@@ -22,4 +27,55 @@ body{
     border: 5px solid #fff;
     object-fit: cover;
     margin: 20px auto;
+}
+.wrapper .title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding:10px ;
+    line-height: 25px;
+    text-shadow: 1px 1px rgb(250, 234, 92);
+}
+.wrapper .place{
+    color: rgb(5, 15, 54);
+    font-size: 17px;
+    font-weight: 500;
+     margin: 10px 0;
+    line-height: 0px;
+}
+.content{
+    color: rgb(182, 189, 229);
+    font-size: 19px;
+    margin-top: 10px;
+    padding:1px 20px 10px 20px!important ;
+}
+.content  .buttons{
+    display: flex;
+}
+.buttons .btn{
+    height: 40px;
+    width: 150px;
+    margin: 0 5px;
+}
+.buttons .btn button{
+   height:100% ;
+   width: 100%;
+   background: #fff;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: 500;
+   border-radius: 5px;
+   transition:  all 0.3s;
+}
+.btn button:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    transform: scale(.95);
+    background: linear-gradient(75deg, rgb(37, 63, 255), rgb(0, 0, 0));
+}
+.container .icons{
+    position: relative;
+    margin-top: -435px;
 }
